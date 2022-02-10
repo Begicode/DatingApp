@@ -71,6 +71,8 @@ namespace API
 
             app.UseAuthorization();
 
+            app.UseDefaultFiles();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
